@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Ism kiritish uchun maydon -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ismingizni kiriting"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+        <!-- Yosh kiritish uchun maydon -->
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yoshingizni kiriting"
+            android:inputType="number"
+            android:minHeight="48dp" />
+        <!-- Jins tanlash uchun ochiladigan ro‘yxat -->
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gender_options"
+            android:minHeight="48dp" />
+        <!-- Bildirishnomalarni yoqish/o‘chirish tugmasi -->
+        <Switch
+            android:id="@+id/switchNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Bildirishnomalarni yoqish" />
+        <!-- Dark Mode yoqish/o‘chirish tugmasi -->
+        <Switch
+            android:id="@+id/switchTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Dark Mode" />
+        <!-- Parol kiritish uchun maydon (4 raqamli PIN) -->
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="4 raqamli parol kiriting"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:minHeight="48dp" />
+        <!-- Parolni saqlash tugmasi -->
+        <Button
+            android:id="@+id/buttonSetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parolni saqlash" />
+        <!-- Blok holatini ko‘rsatish uchun yozuv -->
+        <TextView
+            android:id="@+id/textViewLockStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blok holati: Yo‘q"
+            android:textColor="@android:color/black" />
+        <!-- Barcha o‘zgarishlarni saqlash tugmasi -->
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saqlash" />
+    </LinearLayout>
+</ScrollView>

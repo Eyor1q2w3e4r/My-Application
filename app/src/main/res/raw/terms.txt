@@ -1,0 +1,88 @@
+📜 ILOVADAN FOYDALANISH SHARTLARI
+Ushbu ilovadan foydalanish uchun foydalanuvchilar quyidagi shartlarga rozilik bildirishlari va ularga rioya qilishlari talab etiladi. Shartlarga rioya qilmagan foydalanuvchilarning akkauntlari bloklanishi mumkin va ularga ilovadan qayta foydalanish taqiqlanadi.
+
+1. Umumiy qoidalar
+1.1. Ilova faqat bitta qurilmada ishlaydi. Biror bir akkaunt turli qurilmalarda ishlatilishi mumkin emas.
+1.2. Ilovadan foydalanish uchun Google akkaunti orqali autentifikatsiyadan o‘tish shart.
+1.3. Ilovaga birinchi marta kirishda foydalanuvchi ushbu shartlarni o‘qishi va ularga rozilik bildirish tugmasini bosishi kerak.
+1.4. Foydalanuvchi ilovani o‘chirib tashlab qayta o‘rnatsa, shartlarni qayta tasdiqlashi talab qilinadi.
+1.5. Agar foydalanuvchi ilovani boshqa qurilmaga ko‘chirishga harakat qilsa, yangi qurilmada ilova ishlaydi, eski qurilma esa avtomatik bloklanadi.
+
+2. Foydalanuvchi huquqlari va majburiyatlari
+2.1. Foydalanuvchi ilova orqali taqdim etilgan barcha ta’lim resurslaridan faqat o‘zining bilim olishi uchun foydalanishi mumkin.
+2.2. Ilovada taqdim etilgan materiallarni tarqatish, nusxalash yoki uchinchi shaxslarga berish taqiqlanadi.
+2.3. Foydalanuvchi test topshiriqlarini o‘z bilimiga asoslanib bajarishi shart. Firibgarlikka urinish ilovadan chetlatilishiga sabab bo‘ladi.
+2.4. Agar foydalanuvchi test topshirish qoidalariga amal qilmasa, uning akkaunti avtomatik ravishda bloklanadi.
+2.5. Foydalanuvchi ilovadan foydalanish jarayonida shaxsiy ma’lumotlarini himoya qilishga mas’ul bo‘ladi.
+
+3. Test topshirish qoidalari
+3.1. Har bir testda 3 ta urinish beriladi.
+3.2. Agar foydalanuvchi 3 urinishdan so‘ng ham muvaffaqiyatli natija ko‘rsata olmasa, uning akkaunti bloklanadi va qayta tiklanmaydi.
+3.3. Test davomiyligi – 15 daqiqa. Foydalanuvchi ilovadan chiqsa yoki boshqa dasturlarni ochsa, vaqt avtomatik ravishda qisqaradi:
+
+Agar 5 daqiqa o‘tmagan bo‘lsa – vaqt 3 daqiqaga kamayadi.
+
+Agar 6-10 daqiqada chiqib ketsa – vaqt 2 daqiqaga kamayadi.
+
+Agar 11 daqiqadan keyin chiqsa – test avtomatik tugaydi va natija saqlanadi.
+3.4. Test vaqtida quyidagilar taqiqlanadi:
+
+Skrinshot olish yoki ekran yozib olish.
+
+Ilovadan chiqish yoki boshqa ilovalarni ochish.
+
+Boshqa shaxs yordamidan foydalanish yoki javoblarni izlash.
+3.5. Firibgarlik yoki taqiqlangan harakatlar aniqlansa, foydalanuvchi avtomatik ravishda bloklanadi.
+
+4. Test baholash mezonlari
+4.1. Har bir test 10 ta savoldan iborat bo‘lib, natijalar quyidagi baholash mezonlari bo‘yicha hisoblanadi:
+
+Birinchi urinish:
+10 yoki 9 ta to‘g‘ri javob → ⭐⭐⭐⭐⭐ (5 baho)
+
+8 yoki 7 ta to‘g‘ri javob → ⭐⭐⭐⭐ (4 baho)
+
+6 ta to‘g‘ri javob → ⭐⭐⭐ (3 baho)
+
+5 yoki undan kam javob → ❌ (testdan o‘tolmadi)
+
+Ikkinchi urinish:
+10 yoki 9 ta to‘g‘ri javob → ⭐⭐⭐⭐ (4 baho)
+
+8 yoki 7 ta to‘g‘ri javob → ⭐⭐⭐ (3 baho)
+
+6 ta yoki undan kam javob → ❌ (testdan o‘tolmadi)
+
+Uchinchi urinish:
+Faqat 10 ta to‘g‘ri javob → ⭐⭐⭐ (3 baho)
+
+9 yoki undan kam javob → ❌ (testdan o‘tolmadi, akkaunt bloklanadi)
+
+4.2. Minimal o‘tish talablari:
+
+1-urinishda → kamida 6 ta to‘g‘ri javob talab qilinadi.
+
+2-urinishda → kamida 7 ta to‘g‘ri javob talab qilinadi.
+
+3-urinishda → faqat 10 ta to‘g‘ri javob bilan o‘tish mumkin.
+
+4.3. Test natijasi ekranda ko‘rsatiladi:
+
+Agar foydalanuvchi testdan o‘tsa: "10 ta savoldan 8 tasini to‘g‘ri topdingiz. Sizga 4 baho! Keyingi dars ochildi!"
+
+        Agar foydalanuvchi testdan o‘tolmasa: "10 ta savoldan 5 tasini to‘g‘ri topdingiz. Siz muvaffaqiyatsiz tugatdingiz. Test 24 soatga bloklandi."
+
+        5. Xavfsizlik va maxfiylik
+        5.1. Ilova foydalanuvchilarning shaxsiy ma’lumotlarini himoya qiladi va uchinchi shaxslarga uzatmaydi.
+        5.2. Ilovadan foydalanish vaqtida foydalanuvchi tizimni buzishga yoki manipulyatsiya qilishga urinsa, akkaunti avtomatik ravishda bloklanadi.
+        5.3. Ilovani emulyatorda yoki root-huquqiga ega tizimlarda ishlatish qat’iyan man etiladi.
+        5.4. Ilovada taqdim etilgan materiallarni tijorat maqsadida yoki boshqa platformalarda tarqatish qat’iyan man etiladi.
+
+        6. Ilovadan foydalanish shartlarini qabul qilish
+        6.1. Foydalanuvchi ilovadan foydalanish uchun ushbu shartlarni to‘liq o‘qib chiqishi va ularga rozilik bildirishlari shart.
+        6.2. Agar foydalanuvchi ushbu shartlarga rozilik bildirmasa, ilovadan foydalanish imkoni mavjud emas.
+        6.3. Agar foydalanuvchi ushbu shartlarni qabul qilgan bo‘lsa, u barcha qoidalarga rioya qilishga majburdir.
+        6.4. Ilovani o‘chirib tashlash va qayta o‘rnatish orqali akkaunt blokirovkasidan qochib bo‘lmaydi.
+
+        📌 Eslatma:
+        Shartlarni qabul qilish orqali foydalanuvchi ushbu qoidalarni to‘liq tushunganini va ularga amal qilishga roziligini bildirgan hisoblanadi. Agar ushbu shartlarga rioya qilinmasa, foydalanuvchi ilovadan foydalanish huquqidan mahrum bo‘lishi mumkin."

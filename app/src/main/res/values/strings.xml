@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="default_web_client_id">1038929963373-gii6dkqo49dlmr7us7iuuuhosadn2d04.apps.googleusercontent.com</string>
+    <string-array name="gender_options">
+        <item>Jinsni tanlang</item>
+        <item>Erkak</item>
+        <item>Ayol</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

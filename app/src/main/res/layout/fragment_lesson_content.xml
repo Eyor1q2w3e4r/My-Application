@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Ikonalar uchun gorizontal LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <!-- 1. Matnli ma'lumotlar (PDF) -->
+        <ImageView
+            android:id="@+id/iconTextInfo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_pdf"
+            android:contentDescription="Matnli ma'lumotlar" />
+
+        <!-- 2. Ko'rgazmali materiallar -->
+        <ImageView
+            android:id="@+id/iconVisualMaterials"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_book_pencil"
+            android:contentDescription="Ko'rgazmali materiallar" />
+
+        <!-- 3. Dasturiy vositalar (Video) -->
+        <ImageView
+            android:id="@+id/iconSoftwareTools"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_play_video"
+            android:contentDescription="Dasturiy vositalar" />
+
+        <!-- 4. Adabiyotlar -->
+        <ImageView
+            android:id="@+id/iconLiterature"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_books"
+            android:contentDescription="Adabiyotlar" />
+
+        <!-- 5. Test -->
+        <ImageView
+            android:id="@+id/iconTest"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_test"
+            android:contentDescription="Test" />
+    </LinearLayout>
+
+    <!-- PDFView komponenti PDF faylni ko'rsatish uchun -->
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout>
